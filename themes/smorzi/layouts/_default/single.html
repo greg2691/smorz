@@ -1,6 +1,17 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ partial "metadata.html" . }}
-<br><br>
-{{ .Content }}
+<div class="row g-5">
+  <div class="col-md-8">
+
+    <article class="blog-post">
+
+      <h2 class="blog-post-title">{{ .Title }}</h2>
+      <p class="blog-post-meta">{{ partial "metadata.html" . }}</p>
+      <p>{{ .Content }}</p>
+
+    </article>
+  </div>
+
+  {{ partial "sidebar.html" . }}
+
+</div>
 {{ end }}
