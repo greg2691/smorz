@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>I Smorzisti</title>
+    <link>/</link>
+    <description>Recent content on I Smorzisti</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Jul 2021 11:47:31 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>/posts/hello-world/</link>
+      <pubDate>Thu, 08 Jul 2021 11:47:31 +0200</pubDate>
+      
+      <guid>/posts/hello-world/</guid>
+      <description>HELLO!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin euismod sodales blandit. Vivamus fermentum tincidunt leo ut finibus. Quisque imperdiet consequat ipsum. Nunc tincidunt vel enim quis lacinia. Aenean laoreet egestas turpis, sit amet dictum erat blandit in. Ut vulputate ligula magna, non tincidunt erat tincidunt quis. Curabitur sit amet mi lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla tincidunt eget nisl eu pellentesque.</description>
+    </item>
+    
+  </channel>
+</rss>
