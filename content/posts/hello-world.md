@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
 date: 2021-07-08T11:47:31+02:00
-draft: true
+tags: ["foo", "bar"]
 ---
 
 HELLO!
