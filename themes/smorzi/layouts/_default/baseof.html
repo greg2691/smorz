@@ -3,12 +3,12 @@
     {{- partial "head.html" . -}}
     <body>
       {{- partial "header.html" . -}}
-      <div class="container px-4 py-5">
-        {{- block "main" . }}{{- end }}
+      {{- block "intro" . }}{{- end }}
 
-        {{- partial "footer.html" . -}}
-        {{- partial "script.html" . -}}
+      {{- block "main" . }}{{- end }}
 
-      </div>
+      {{- partial "footer.html" . -}}
+      {{- partial "script.html" . -}}
+      
     </body>
 </html>

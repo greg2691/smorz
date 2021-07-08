@@ -1,17 +1,19 @@
 {{ define "main" }}
-<div class="row g-5">
-  <div class="col-md-8">
+<div class="container">
+  <div class="row g-5 px-4 py-5">
+    <div class="col-md-8">
 
-    <article class="blog-post">
+      <article class="blog-post">
 
-      <h2 class="blog-post-title">{{ .Title }}</h2>
-      <p class="blog-post-meta">{{ partial "metadata.html" . }}</p>
-      <p>{{ .Content }}</p>
+        <h2 class="blog-post-title">{{ .Title }}</h2>
+        <p class="blog-post-meta">{{ partial "metadata.html" . }}</p>
+        <p>{{ .Content }}</p>
 
-    </article>
+      </article>
+    </div>
+
+    {{ partial "sidebar.html" . }}
+
   </div>
-
-  {{ partial "sidebar.html" . }}
-
 </div>
 {{ end }}
