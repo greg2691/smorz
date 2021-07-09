@@ -5,7 +5,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 nav.navbar,
-.home-bg {
+.home-bg,
+footer.text-center {
 background-color: #27251f;
 }
 
@@ -14,8 +15,19 @@ background-color: #27251f;
   color: #fff;
 }
 
+nav.navbar li.nav-item a.nav-link,
+footer.text-center span,
+footer.text-center a,
+footer.text-center .foot {
+  color: #fff;
+}
+
 a,
 a:visited,
-a.nav-link {
+nav.navbar li.nav-item a.nav-link:hover {
 color: #ffb81c;
+}
+
+.foot {
+  padding-top: 10px;
 }
