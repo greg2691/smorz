@@ -1,9 +1,11 @@
 {{ define "main" }}
 <div class="container px-4 py-5">
+  <h1>Contattaci</h1>
+  <br>
   <form method="post" action="https://forms.un-static.com/forms/8f9267748df9eebb57fa0843d6165458eda48390">
     <div class="mb-3">
       <label for="exampleFormControlInput1" class="form-label">Nome:</label>
-      <input type="text" class="form-control" id="autoSizingInput" placeholder="Nome" name="name">
+      <input type="text" class="form-control" id="autoSizingInput" placeholder="Il tuo nome" name="name">
     </div>
     <div class="mb-3">
       <label for="exampleFormControlInput1" class="form-label">Email:</label>
@@ -12,7 +14,8 @@
     <div class="mb-3">
       <label for="exampleFormControlTextarea1" class="form-label">Messaggio:</label>
       <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" type="text" name="message"></textarea>
-      <button type="submit">Send</button>
+      <br>
+      <button class="btn btn-warning" type="submit">Invia</button>
     </div>
   </form>
 </div>
