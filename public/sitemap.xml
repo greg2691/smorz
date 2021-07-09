@@ -24,6 +24,9 @@
   </url><url>
     <loc>/contattaci/</loc>
   </url><url>
+    <loc>/form-success/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>/prodotti/</loc>
   </url><url>
     <loc>/servizi/</loc>

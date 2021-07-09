@@ -31,3 +31,8 @@ color: #ffb81c;
 .foot {
   padding-top: 10px;
 }
+
+nav.navbar button a {
+  color: #000;
+  text-decoration: none;
+}
