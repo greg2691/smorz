@@ -28,6 +28,14 @@ nav.navbar li.nav-item a.nav-link:hover {
 color: #ffb81c;
 }
 
+nav.navbar li.nav-item a.nav-link {
+  
+}
+
+nav.navbar li.nav-item a.nav-link.active {
+  color: #ffb81c;
+}
+
 .foot {
   padding-top: 10px;
 }
